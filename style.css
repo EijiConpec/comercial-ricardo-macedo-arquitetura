@@ -33,7 +33,7 @@ body {
 }
 
 @font-face {
-    font-family: "Tw Cen MT";
+    font-family: "TwCenMT";
     src: url("assets/fonts/tw-cen-mt.eot");
     /* IE9 Compat Modes */
     src: url("assets/fonts/tw-cen-mt.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -89,7 +89,7 @@ nav button {
     position: fixed;
     color: white;
     z-index: 1;
-    font-family: "Tw Cen MT";
+    font-family: "TwCenMT";
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
@@ -410,7 +410,7 @@ nav button {
 }
 
 .contato-informacoes h3 {
-    font-family: "Tw Cen MT";
+    font-family: "TwCenMT";
     font-weight: 500;
     text-transform: uppercase;
     margin: 0 0 10px;
