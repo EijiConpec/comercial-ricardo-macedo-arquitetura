@@ -34,8 +34,17 @@ body {
 
 @font-face {
     font-family: "Tw Cen MT";
-    src: url('assets/fonts/tw-cen-mt.tff');
-    font-weight: regular;
+    src: url("assets/fonts/tw-cen-mt.eot");
+    /* IE9 Compat Modes */
+    src: url("assets/fonts/tw-cen-mt.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/fonts/tw-cen-mt.otf") format("opentype"), /* Open Type Font */
+    url("assets/fonts/tw-cen-mt.svg") format("svg"), /* Legacy iOS */
+    url("assets/fonts/tw-cen-mt.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("assets/fonts/tw-cen-mt.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts/tw-cen-mt.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Navbar ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
