@@ -1,0 +1,569 @@
+/* 
+Projeto: Ricardo Macedo Arquitetura
+Autor: Conpec - EJ de Computação da UNICAMP
+Versão: 1.0.0
+Data: 2020
+
+Mobile First! Stylesheet priorizada para dispositivos móveis. Media Queries para desktop
+*/
+
+/* 🆂🆃🆈🅻🅴🆂🅷🅴🅴🆃 */
+
+/* Índice ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+*/
+
+/* CSS Reset ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Fonts ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@font-face {
+    font-family: Abel;
+    src: url('assets/fonts/abel.ttf');
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: "Tw Cen MT";
+    src: url('assets/fonts/tw-cen-mt.tff');
+    font-weight: regular;
+}
+
+/* Navbar ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+nav {
+    background-color: rgba(255, 255, 255, 0.25);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav button {
+    background: none;
+    border: none;
+    font-family: Abel;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.nav-ul {
+    margin: 10px 0 0 0;
+    display: none;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: white;
+    font-family: Abel;
+}
+
+.nav-ul li {
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+/* Slider (Slick) ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.titulo {
+    position: fixed;
+    color: white;
+    z-index: 1;
+    font-family: "Tw Cen MT";
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: 130px;
+}
+
+.slider-projeto {
+    height: 300px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    position: relative;
+    background-attachment: fixed !important;
+}
+
+.legenda {
+    text-decoration: none;
+    font-family: Abel;
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    position: fixed;
+    right: 70%;
+    top: 260px;
+    outline: none;
+    transition: 1s;
+}
+
+.oculta {
+    right: 50%;
+}
+
+.projeto-1 {
+    background: url('assets/img/slider/projeto-1.png');
+}
+
+.projeto-2 {
+    background: url('assets/img/slider/projeto-2.png');
+}
+
+.projeto-3 {
+    background: url('assets/img/slider/projeto-3.png');
+}
+
+.slick-dots {
+    position: fixed;
+    top: 268px;
+    left: 20px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.slick-dots button {
+    background: white;
+    border: none;
+    color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    text-align: left;
+    text-indent: -999px;
+    outline: none;
+}
+
+.slick-dots .slick-active button {
+    background: grey;
+}
+
+/* Sobre Nós ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.sobre-nos {
+    background: linear-gradient(107.86deg, #ACACA0 1.82%, #98998B 100%);
+    font-family: Abel;
+    color: #313131;
+    position: relative;
+    z-index: 5;
+    overflow-x: hidden;
+}
+
+.sobre-nos section {
+    padding: 0 0 20px 0;
+}
+
+.card {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background: white;
+    padding: 60px 0 0 0;
+    background-size: cover !important;
+    background-position: center !important;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.sobre-nos-card {
+    background: url("assets/img/sobre-nos.png");
+}
+
+.missao-card {
+    background: url("assets/img/missao.png");
+}
+
+.sobre-nos p {
+    width: 70%;
+    margin: 20px auto 0;
+    text-justify: inter-word;
+    overflow-x: hidden !important;
+}
+
+.sobre-nos-p {
+    padding: 0 0 0 10px;
+    border-left: 4px solid #001D3D;
+}
+
+.missao-p {
+    text-align: right;
+    padding: 0 0 10px 0;
+    border-bottom: 4px solid #001D3D;
+}
+
+/* Depoimentos ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.titulo-secao {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 10px 0 0 0;
+    color: white;
+    font-family: Abel;
+}
+
+.depoimentos {
+    background-color: #001D3D;
+    font-family: Abel;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    overflow-x: hidden;
+}
+
+.depoimentos article {
+    padding: 15px 0;
+}
+
+.depoimentos img {
+    height: auto;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.depoimentos p {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.depoimento-cliente-1, .depoimento-cliente-3 {
+    text-align: left;
+    border-left: 4px solid white;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
+}
+
+.depoimento-cliente-2 {
+    text-align: right;
+    border-bottom: 4px solid white;
+    padding: 0 0 10px 0;
+    margin: 0 10px 0 0;
+}
+
+/* Projetos ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.projetos .titulo-secao {
+    text-decoration-color: #001D3D;
+}
+
+.projetos {
+    background: linear-gradient(107.86deg, #ACACA0 1.82%, #98998B 100%);
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    overflow-x: hidden;
+}
+
+.projetos section {
+    padding: 20px 0 0;
+}
+
+.projeto {
+    display: inline-block;
+    margin: 10px;
+    min-height: 160px;
+    width: 120px
+}
+
+.projeto1 {
+    background: url('assets/img/projeto1.png');
+    background-size: cover;
+}
+
+.projeto2 {
+    background: url('assets/img/projeto2.png');
+    background-size: cover;
+}
+
+.projeto3 {
+    background: url('assets/img/projeto3.png');
+    background-size: cover;
+}
+
+.projeto4 {
+    background: url('assets/img/projeto1.png');
+    background-size: cover;
+}
+
+.projeto5 {
+    background: url('assets/img/projeto2.png');
+    background-size: cover;
+}
+
+.projeto6 {
+    background: url('assets/img/projeto3.png');
+    background-size: cover;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    font-family: Abel;
+    overflow:auto;
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+
+.modal::-webkit-scrollbar{
+    display:none;
+}
+
+.conteudo-modal{
+    background: white;
+    width: 90%;
+    margin: 10px auto 0;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.modal h1{
+    display: inline-block;
+    margin: 0 -30px 0 0;
+}
+
+.fechar-modal{
+    width: 15px;
+    float: right;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.capa-modal{
+    width: 96%;
+    padding: 0 2%;
+}
+
+.descricao-modal{
+    text-align: left;
+    padding: 0 0 0 2%;
+}
+
+.legenda-modal{
+    text-align: left;
+    padding: 0 2%;
+    border-left: 4px solid #001D3D;
+    margin: 0 0 0 10px;
+}
+
+.fechar-modal-final{
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+
+/* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.contato {
+    background: url('assets/img/contato.png');
+    background-size: cover;
+    position: relative;
+    z-index: 4;
+    font-family: Abel;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contato a {
+    color: black;
+}
+
+.contato-informacoes, .contato-formulario {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contato-informacoes h3 {
+    font-family: "Tw Cen MT";
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.contato-formulario {
+    margin: 10px auto 0;
+    text-align: left;
+}
+
+.contato-formulario input, .contato-formulario textarea, .contato-formulario button {
+    font-family: Abel;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: black;
+}
+
+.contato-formulario textarea {
+    margin: 10px 0 0 0;
+    width: 95%;
+    padding: 1%;
+}
+
+.contato-formulario input {
+    width: 70%;
+    padding: 1%;
+}
+
+.contato-formulario button {
+    padding: 2px;
+    width: 50px;
+    border-radius: 25px;
+    float: right;
+    margin: 0 10px 0 0;
+    background: #001D3D;
+    color: white;
+}
+
+/* 🄼🄴🄳🄸🄰 🅀🅄🄴🅁🄸🄴🅂 */
+
+/* 
+Site versão desktop
+Telas a partir de 1024px; */
+
+@media (min-width: 1024px) {
+    /* Geral ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .wrapper {
+        width: 1024px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    /* Navbar ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    nav {
+        padding: 0;
+    }
+    nav button {
+        display: none;
+    }
+    .nav-ul {
+        margin: 10px 0 0 0;
+        display: block;
+        text-align: right;
+    }
+    .nav-ul li {
+        display: inline-block;
+        margin: 0 14px 0;
+        padding: 0 0 10px 0;
+    }
+    /* Slider (Slick) ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .titulo {
+        font-size: 5vw;
+        width: 70vw;
+        left: calc(50% - 35vw);
+        top: 100px;
+    }
+    .slider-projeto {
+        height: 100vh !important;
+    }
+    .legenda {
+        font-size: 32px;
+        top: 90vh;
+    }
+    .slick-dots {
+        top: 90vh;
+    }
+    /* Sobre Nós ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .sobre-nos {
+        height: 100vm;
+    }
+    .sobre-nos section {
+        height: 280px !important;
+    }
+    .card {
+        width: 184px;
+        height: 180px;
+        padding: 90px 0 0 0;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 25px;
+    }
+    .sobre-nos-card {
+        margin: 50px 25px 0 50px;
+    }
+    .missao-card {
+        float:right;
+    }
+    .sobre-nos p {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 22px;
+    }
+    .sobre-nos-p {
+        margin: 50px 0 0 0 !important;
+    }
+    .missao-p {
+        margin: 40px 0 0 92px !important;
+    }
+    /* Depoimentos ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .titulo-secao {
+        padding: 20px 0 0 0;
+        font-size: 36px
+    }
+    .depoimentos img {
+        width: 90px;
+    }
+    .depoimentos p {
+        font-size: 18px
+    }
+    /* Projetos ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .projeto {
+        width: 25%;
+        height: 375px;
+        margin: 30px;
+        opacity: 0.6;
+        transition: 0.5s !important;
+        cursor: pointer;
+    }
+    .projeto:hover {
+        opacity: 1;
+    }
+    .modal h1{
+        font-size:42px;
+        margin: 10px -30px 10px 0;
+    }
+    .legenda-modal, .descricao-modal{
+        font-size:22px;
+    }
+    /* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+    .contato-informacoes {
+        width: 30%;
+        height: 310px;
+        float: left;
+        margin: 0 0 0 65px;
+        font-size: 24px;
+        padding: 60px 10px 0;
+    }
+    .contato-informacoes h3 {
+        font-size: 32px
+    }
+    .contato-formulario {
+        width: 50%;
+        float: right;
+        margin: 260px 65px 0 0;
+    }
+}
