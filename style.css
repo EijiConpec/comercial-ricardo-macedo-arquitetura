@@ -485,13 +485,14 @@ Telas a partir de 1024px; */
         width: 70vw;
         left: calc(50% - 35vw);
         top: 100px;
+        line-height: 70%;
     }
     .titulo span {
-        font-size: 50px;
-        letter-spacing: 42px;
+        font-size: 50%;
+        letter-spacing: 2.3vw;
         text-align: center;
-        margin: 0 0 0 35px;
         font-weight: light;
+        margin: 0 0 0 3%;
         line-height: 10px;
     }
     .slider-projeto {
