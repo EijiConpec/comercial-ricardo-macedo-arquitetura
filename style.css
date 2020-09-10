@@ -325,26 +325,26 @@ nav button {
     background-size: cover;
 }
 
-.modal{
+.modal {
     display: none;
     position: fixed;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
     z-index: 99;
     top: 0;
     left: 0;
     font-family: Abel;
-    overflow:auto;
-    -ms-overflow-style:none;
+    overflow: auto;
+    -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
-.modal::-webkit-scrollbar{
-    display:none;
+.modal::-webkit-scrollbar {
+    display: none;
 }
 
-.conteudo-modal{
+.conteudo-modal {
     background: white;
     width: 90%;
     margin: 10px auto 0;
@@ -352,36 +352,36 @@ nav button {
     padding: 0 0 100px 0;
 }
 
-.modal h1{
+.modal h1 {
     display: inline-block;
     margin: 0 -30px 0 0;
 }
 
-.fechar-modal{
+.fechar-modal {
     width: 15px;
     float: right;
     margin: 10px 10px 0 0;
     cursor: pointer;
 }
 
-.capa-modal{
+.capa-modal {
     width: 96%;
     padding: 0 2%;
 }
 
-.descricao-modal{
+.descricao-modal {
     text-align: left;
     padding: 0 0 0 2%;
 }
 
-.legenda-modal{
+.legenda-modal {
     text-align: left;
     padding: 0 2%;
     border-left: 4px solid #001D3D;
     margin: 0 0 0 10px;
 }
 
-.fechar-modal-final{
+.fechar-modal-final {
     margin: 30px 0 0 0;
     cursor: pointer;
 }
@@ -486,6 +486,14 @@ Telas a partir de 1024px; */
         left: calc(50% - 35vw);
         top: 100px;
     }
+    .titulo span {
+        font-size: 50px;
+        letter-spacing: 42px;
+        text-align: center;
+        margin: 0 0 0 35px;
+        font-weight: light;
+        line-height: 10px;
+    }
     .slider-projeto {
         height: 100vh !important;
     }
@@ -515,7 +523,7 @@ Telas a partir de 1024px; */
         margin: 50px 25px 0 50px;
     }
     .missao-card {
-        float:right;
+        float: right;
     }
     .sobre-nos p {
         display: inline-block;
@@ -551,63 +559,63 @@ Telas a partir de 1024px; */
     .projeto:hover {
         opacity: 1;
     }
-    .modal h1{
-        font-size:42px;
+    .modal h1 {
+        font-size: 42px;
         margin: 10px -30px 10px 0;
     }
-    .legenda-modal, .descricao-modal{
-        font-size:22px;
+    .legenda-modal, .descricao-modal {
+        font-size: 22px;
     }
     /* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-    .contato{
+    .contato {
         min-height: 100vh;
-     }
-     .retangulo{
-         min-height:60px;
-         background: #ffffff;
-         display: inline-block;
-         margin: 60px 0 0 0;
-     }
-     .retangulo-azul{
-         width:65%;
-         float: left;
-     }
-     .retangulo-branco{
-         width:8%;
-         background: #ffffff;
-         float: right;
-     }
-     .contato-informacoes {
-         width: 60%;
-         height: 320px;
-         float: left;
-         margin: 90px 0 0 65px;
-         font-size: 24px;
-         padding: 0px 0px 0;
-         background: #001D3D;
-         color:white;
-     }
-     .contato-informacoes h3 {
-         margin: 130px 0 10px -90px;
-         font-size: 32px;
-         line-height: 20px;
-     }
-     .contato-informacoes span{
-         font-size: 16px;
-         letter-spacing: 15px;
-         margin: 0 0px 0px 11px;
-     }
-     .contato-informacoes p{
-         text-align: right;
-         font-size: 16px;
-         margin: 0 180px 0 0;
-     }
-     .contato-informacoes a{
-         color: white;
-     }
-     .contato-formulario {
-         width: 40%;
-         float: right;
-         margin: 20px 65px 0 0;
-     }
+    }
+    .retangulo {
+        min-height: 60px;
+        background: #ffffff;
+        display: inline-block;
+        margin: 60px 0 0 0;
+    }
+    .retangulo-azul {
+        width: 65%;
+        float: left;
+    }
+    .retangulo-branco {
+        width: 8%;
+        background: #ffffff;
+        float: right;
+    }
+    .contato-informacoes {
+        width: 60%;
+        height: 320px;
+        float: left;
+        margin: 90px 0 0 65px;
+        font-size: 24px;
+        padding: 0px 0px 0;
+        background: #001D3D;
+        color: white;
+    }
+    .contato-informacoes h3 {
+        margin: 130px 0 10px -90px;
+        font-size: 32px;
+        line-height: 20px;
+    }
+    .contato-informacoes span {
+        font-size: 16px;
+        letter-spacing: 15px;
+        margin: 0 0px 0px 11px;
+    }
+    .contato-informacoes p {
+        text-align: right;
+        font-size: 16px;
+        margin: 0 180px 0 0;
+    }
+    .contato-informacoes a {
+        color: white;
+    }
+    .contato-formulario {
+        width: 40%;
+        float: right;
+        margin: 20px 65px 0 0;
+    }
 }
