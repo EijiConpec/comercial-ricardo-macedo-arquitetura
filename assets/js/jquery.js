@@ -9,7 +9,6 @@ $(document).ready(function () {
     dots: true,
     fade: true,
     mobileFirst: true,
-    pauseOnDotsHover: true,
   });
 });
 
