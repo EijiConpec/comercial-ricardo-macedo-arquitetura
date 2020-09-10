@@ -559,20 +559,55 @@ Telas a partir de 1024px; */
         font-size:22px;
     }
     /* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-    .contato-informacoes {
-        width: 30%;
-        height: 310px;
-        float: left;
-        margin: 0 0 0 65px;
-        font-size: 24px;
-        padding: 60px 10px 0;
-    }
-    .contato-informacoes h3 {
-        font-size: 32px
-    }
-    .contato-formulario {
-        width: 50%;
-        float: right;
-        margin: 260px 65px 0 0;
-    }
+    .contato{
+        min-height: 100vh;
+     }
+     .retangulo{
+         min-height:60px;
+         background: #ffffff;
+         display: inline-block;
+         margin: 60px 0 0 0;
+     }
+     .retangulo-azul{
+         width:65%;
+         float: left;
+     }
+     .retangulo-branco{
+         width:8%;
+         background: #ffffff;
+         float: right;
+     }
+     .contato-informacoes {
+         width: 60%;
+         height: 320px;
+         float: left;
+         margin: 90px 0 0 65px;
+         font-size: 24px;
+         padding: 0px 0px 0;
+         background: #001D3D;
+         color:white;
+     }
+     .contato-informacoes h3 {
+         margin: 130px 0 10px -90px;
+         font-size: 32px;
+         line-height: 20px;
+     }
+     .contato-informacoes span{
+         font-size: 16px;
+         letter-spacing: 15px;
+         margin: 0 0px 0px 11px;
+     }
+     .contato-informacoes p{
+         text-align: right;
+         font-size: 16px;
+         margin: 0 180px 0 0;
+     }
+     .contato-informacoes a{
+         color: white;
+     }
+     .contato-formulario {
+         width: 40%;
+         float: right;
+         margin: 20px 65px 0 0;
+     }
 }
