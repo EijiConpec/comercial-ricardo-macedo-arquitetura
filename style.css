@@ -624,6 +624,15 @@ Telas a partir de 1024px; */
     .legenda-modal, .descricao-modal {
         font-size: 22px;
     }
+    .img-vertical {
+        display: inline-block;
+        width: 30%;
+    }
+    .legenda-img-vertical {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
     /* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
     .contato {
         min-height: 100vh;
