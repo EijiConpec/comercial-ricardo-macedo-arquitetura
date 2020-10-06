@@ -9,6 +9,9 @@ $(document).ready(function () {
     dots: true,
     fade: true,
     mobileFirst: true,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    pauseOnDotsHover: true
   });
 });
 
