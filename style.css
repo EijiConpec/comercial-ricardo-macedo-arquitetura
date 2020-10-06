@@ -322,16 +322,11 @@ nav button {
 }
 
 .projeto4 {
-    background: url('assets/img/projetos/matrix/capa.jpg');
-    background-size: cover;
-}
-
-.projeto5 {
     background: url('assets/img/projetos/sindseg/capa.jpg');
     background-size: cover;
 }
 
-.projeto6 {
+.projeto5 {
     background: url('assets/img/projetos/geral/capa.jpg');
     background-size: cover;
 }
