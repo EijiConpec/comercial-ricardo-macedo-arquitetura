@@ -307,32 +307,32 @@ nav button {
 }
 
 .projeto1 {
-    background: url('assets/img/projeto1.png');
+    background: url('assets/img/projetos/sao-joao/capa.jpg');
     background-size: cover;
 }
 
 .projeto2 {
-    background: url('assets/img/projeto2.png');
+    background: url('assets/img/projetos/ap-af/capa.jpg');
     background-size: cover;
 }
 
 .projeto3 {
-    background: url('assets/img/projeto3.png');
+    background: url('assets/img/projetos/matrix/capa.jpg');
     background-size: cover;
 }
 
 .projeto4 {
-    background: url('assets/img/projeto1.png');
+    background: url('assets/img/projetos/matrix/capa.jpg');
     background-size: cover;
 }
 
 .projeto5 {
-    background: url('assets/img/projeto2.png');
+    background: url('assets/img/projetos/sindseg/capa.jpg');
     background-size: cover;
 }
 
 .projeto6 {
-    background: url('assets/img/projeto3.png');
+    background: url('assets/img/projetos/geral/capa.jpg');
     background-size: cover;
 }
 
