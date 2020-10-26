@@ -233,10 +233,14 @@ nav button {
 .titulo-secao {
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
     padding: 10px 0 0 0;
     color: white;
     font-family: Abel;
+}
+
+.titulo-secao-linha {
+    border: 2px solid #001D3D;
+    width: 62%;
 }
 
 .depoimentos {
@@ -324,10 +328,17 @@ nav button {
 .projeto4 {
     background: url('assets/img/projetos/sindseg/capa.jpg');
     background-size: cover;
+    background-position: -156px 0;
 }
 
 .projeto5 {
     background: url('assets/img/projetos/geral/capa.jpg');
+    background-size: cover;
+    background-position: -230px 0;
+}
+
+.projeto6 {
+    background: url('assets/img/projetos/bigpao/capa.jpg');
     background-size: cover;
 }
 
@@ -372,7 +383,39 @@ nav button {
 
 .capa-modal {
     width: 96%;
+    height: 500px;
     padding: 0 2%;
+    background-size: cover !important;
+}
+
+.capa-modal1{
+    background: url("assets/img/projetos/sao-joao/capa.jpg");
+    background-position: 0 -1580px;
+}
+
+.capa-modal2{
+    background: url("assets/img/projetos/ap-af/capa.jpg");
+    background-position: 0;
+}
+
+.capa-modal3{
+    background: url("assets/img/projetos/matrix/capa.jpg");
+    background-position: 0 -550px;
+}
+
+.capa-modal4{
+    background: url("assets/img/projetos/sindseg/capa.jpg");
+    background-position: 0 -100px;
+}
+
+.capa-modal5{
+    background: url("assets/img/projetos/geral/capa.jpg");
+    background-position: 0;
+}
+
+.capa-modal6{
+    background: url("assets/img/projetos/bigpao/capa.JPG");
+    background-position: 0 -500px;
 }
 
 .descricao-modal {
@@ -472,14 +515,14 @@ nav button {
     margin-right: -10px;
 }
 .contato-informacoes {
-    width: 90%;
+    width: 60%;
     height: 320px;
     font-size: 24px;
     background: #001D3D;
     color: white;
 }
 .contato-informacoes h3 {
-    margin: 130px 0 10px -90px;
+    margin: 130px 0 10px -30%;
     font-size: 20px;
     line-height: 15px;
 }
@@ -491,7 +534,7 @@ nav button {
 .contato-informacoes p {
     text-align: right;
     font-size: 16px;
-    margin: 0 111px 0 0;
+    margin: 0 37% 0 0;
 }
 .contato-informacoes a {
     color: white;
@@ -670,7 +713,7 @@ Telas a partir de 1024px; */
     .contato-informacoes p {
         text-align: right;
         font-size: 16px;
-        margin: 0 180px 0 0;
+        margin: 0 215px 0 0;
     }
     .contato-informacoes a {
         color: white;
