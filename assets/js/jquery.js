@@ -87,6 +87,13 @@ x.forEach(element => {
   });
 });
 
+x.forEach(element => {
+  $(".legenda" + element).click(function () {
+    $(".modal-projeto" + element).show(500);
+    $(".site-nav").hide(500);
+  });
+});
+
 $(".fechar-modal, .fechar-modal-final").click(function () {
   $(".modal").hide(450);
   $(".site-nav").show(500);
