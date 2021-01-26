@@ -361,6 +361,10 @@ nav button {
     display: none;
 }
 
+.modal img {
+    max-width: 100%;
+}
+
 .conteudo-modal {
     background: white;
     width: 90%;
