@@ -390,6 +390,7 @@ nav button {
     height: 500px;
     padding: 0 2%;
     background-size: cover !important;
+    background-repeat: no-repeat im !important;
 }
 
 .capa-modal1{
