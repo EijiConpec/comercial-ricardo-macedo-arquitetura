@@ -138,8 +138,8 @@ nav button {
     background: url('assets/img/slider/horto-slider.jpg');
 }
 
-.projeto-2 {
-    background: url('assets/img/slider/angra-slider.jpg');
+.projeto-9 {
+    background: url('assets/img/projetos/angra/capa.jpeg');
 }
 
 .projeto-8 {
@@ -203,11 +203,11 @@ nav button {
 }
 
 .sobre-nos-card {
-    background: url("assets/img/sobre-nos.png");
+    background: url("assets/img/sobre-nos.jpg");
 }
 
 .missao-card {
-    background: url("assets/img/missao.png");
+    background: url("assets/img/missao.jpg");
 }
 
 .sobre-nos p {
@@ -395,7 +395,7 @@ nav button {
 
 .capa-modal1{
     background: url("assets/img/projetos/sao-joao/capa.jpg");
-    background-position: 0 -1580px;
+    background-position: 0 -300px;
 }
 
 .capa-modal2{
@@ -421,6 +421,18 @@ nav button {
 .capa-modal6{
     background: url("assets/img/projetos/bigpao/capa.JPG");
     background-position: 0 -500px;
+}
+.capa-modal7{
+    background: url("assets/img/projetos/horto/capa.jpg");
+    background-position: 0 -800px;
+}
+.capa-modal8{
+    background: url("assets/img/slider/osnir-slider.jpg");
+    background-position: 0 -300px;
+}
+.capa-modal9{
+    background: url("assets/img/projetos/angra/capa.jpeg");
+    background-position: 0 -700px;
 }
 
 .descricao-modal {
