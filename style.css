@@ -672,6 +672,9 @@ Telas a partir de 1024px; */
     .projeto:hover {
         opacity: 1;
     }
+    .modal{
+        -webkit-transform:translate3d(0,0,0);
+    }
     .modal h1 {
         font-size: 42px;
         margin: 10px -30px 10px 0;
