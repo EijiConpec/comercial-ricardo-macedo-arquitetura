@@ -675,6 +675,7 @@ Telas a partir de 1024px; */
     .modal{
         position: absolute;
         -webkit-transform:translate3d(0,0,200px);
+        z-index: 9000;
     }
     .modal h1 {
         font-size: 42px;
