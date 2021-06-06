@@ -438,7 +438,7 @@ nav button {
 
 .descricao-modal {
     text-align: left;
-    padding: 2% 0 2% 2%;
+    padding: 4% 0 10% 2%;
 }
 
 .legenda-modal {
@@ -693,6 +693,9 @@ Telas a partir de 1024px; */
         width: 30%;
         display: inline-block;
         vertical-align: top;
+    }
+    .descricao-modal{
+        padding: 4% 0 10% 2%;
     }
     /* Contato ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
     .contato {
