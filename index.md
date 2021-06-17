@@ -279,7 +279,7 @@ Carrossel de projetos -->
                 <p>Cel +55 11 97307 2645</p>
             </section>
             <section class="contato-formulario">
-                <form method="POST" action="http://formspree.io/gabrieltomonari@gmail.com">
+                <form method="POST" action="https://formspree.io/gabrieltomonari@gmail.com">
                     <input type="email" name="email" placeholder="Email">
                     <button type="submit">Enviar</button>
                     <textarea name="message" placeholder="Mensagem"></textarea>
